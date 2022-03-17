@@ -1,0 +1,19 @@
+{
+    "name": "web-server",
+    "version": "0.1.0",
+    "description": "Web server for SIT 737",
+    "dependencies": {
+        "express": "*",
+        "log": "*",
+        "body-parser": "*"
+    },
+    "devDependencies": {
+        "nodemon": "*"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "test server.js"
+    },
+    "author": "Nathan Bell",
+    "license": "MIT"
+}
